@@ -1,0 +1,31 @@
+h3 {
+  font-size: 4rem;
+  z-index: 2;
+  text-align: center;
+  grid-column: 2 / span 3;
+  grid-row: 1 / 1;
+  color: #c9a87b;
+  font-weight: 400;
+  margin-bottom: 5vh;
+}
+
+.soil {
+  padding: 7vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.body {
+  padding: 7vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.soul {
+  padding: 7vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: black;
+}
