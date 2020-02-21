@@ -97,7 +97,10 @@ footer {
   background-color: #c9a87b;
   height: 10vh;
   color: white;
-  /* margin-top: 20vh; */
   align-self: center;
   padding: 10px;
+}
+
+.duck {
+  z-index: 4;
 }
