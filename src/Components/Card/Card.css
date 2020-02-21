@@ -16,18 +16,13 @@
 
 .card {
   width: 350px;
-  /* grid-column: 1fr; */
   margin-left: 1em;
   margin-top: 1em;
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   transition: 0.3s;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 20px 16px 0 rgba(0, 0, 0, 0.2);
-}
 .meet {
   grid-column: 1 / span 4;
   font-size: 7rem;
@@ -39,24 +34,54 @@
 }
 
 /* Add some padding inside the card container */
-.cardContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  padding: 5px 5px;
-  margin: 5px;
-}
-
-.left {
-  grid-column: 1 / 2;
-}
-
-.right {
-  grid-column: 2 / 3;
-}
 
 .cardImage {
-  width: 350px;
-  height: 350px;
+  width: 375px;
+  height: 375px;
   object-fit: cover;
+}
+
+.flipcard {
+  position: relative;
+  width: 375px;
+  height: 375px;
+  padding: 5px 5px;
+  margin: 3vh;
+  perspective: 1000px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .flipcard {
+  transform: rotateY(180deg);
+}
+
+.flipcardFront,
+.flipcardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipcardFront {
+  background-color: #bbb;
+  color: black;
+}
+
+.flipcardBack {
+  background-color: #c9a87b;
+  padding: 1vh;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.cardName {
+  padding-top: 1vh;
+}
+
+.info {
+  padding-top: 1vh;
 }

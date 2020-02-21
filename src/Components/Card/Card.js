@@ -13,26 +13,29 @@ class Card extends Component {
       <>
         {this.state.livestock.map((livestock, index) => (
           <div className='card' key={index}>
-            <img className='cardImage' src={image} alt='' />
-            <h2>{livestock.name}</h2>
-            <div className='cardContainer'>
-              <ul>
-                <li className='left'>Born: {livestock.birthdate}</li>
-                <li className='left'>
-                  Age: {moment(livestock.birthdate).fromNow(true)}
-                </li>
-                <li className='left'>Height: {livestock.height} </li>
-                <li className='left'>Weight: {livestock.weight} </li>
-                <li className='left'>Breed: {livestock.breed} </li>
-                <li className='left'>Chondro: {livestock.chondro} </li>
+            <div className='flipcard'>
+              <div className='flipcardFront'>
+                <img className='cardImage' src={livestock.image} alt='' />
+                <h2>{livestock.name}</h2>
+              </div>
+              <div className='flipcardBack'>
+                <h1 className='cardName'>{livestock.name}</h1>
+                <ul className='info'>
+                  <li>Born: {livestock.birthdate}</li>
+                  <li>Age: {moment(livestock.birthdate).fromNow(true)}</li>
+                  <li>Height: {livestock.height} </li>
+                  <li>Weight: {livestock.weight} </li>
+                  <li>Breed: {livestock.breed} </li>
+                  <li>Chondro: {livestock.chondro} </li>
 
-                <li className='right'>Temperament: {livestock.temperament} </li>
-                <li className='right'>Dam: {livestock.dam} </li>
-                <li className='right'>Sire: {livestock.sire} </li>
-                <li className='right'>Sex: {livestock.sex} </li>
-                <li className='right'>Color: {livestock.color} </li>
-                <li className='right'>Bio: {livestock.bio} </li>
-              </ul>
+                  <li>Temperament: {livestock.temperament}</li>
+                  <li>Dam: {livestock.dam} </li>
+                  <li>Sire: {livestock.sire} </li>
+                  <li>Sex: {livestock.sex} </li>
+                  <li>Color: {livestock.color} </li>
+                  <li>Bio: {livestock.bio} </li>
+                </ul>
+              </div>
             </div>
           </div>
         ))}

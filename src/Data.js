@@ -14,7 +14,7 @@ module.exports = {
       sex: "bull",
       color: "brown",
       bio: "Norman is a bull",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/norman.jpg")
     },
     {
       name: "Olaf",
@@ -30,7 +30,7 @@ module.exports = {
       sex: "bull",
       color: "red",
       bio: "Olaf is a Highland Bull",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/olafsky.jpg")
     },
     {
       name: "Ferdinand",
@@ -46,7 +46,7 @@ module.exports = {
       sex: "bull",
       color: "black",
       bio: "Ferdinand is a Micro Zebu X bull",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/ferdinand.jpg")
     },
     {
       name: "Bruce Almighty",
@@ -62,7 +62,7 @@ module.exports = {
       sex: "bull",
       color: "brindle",
       bio: "Bruce Almighty is a brindle, Highland bull",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/bruce.jpg")
     },
     {
       name: "Pig",
@@ -78,7 +78,7 @@ module.exports = {
       sex: "cow",
       color: "black",
       bio: "Pig is a 6 year old black, lowline angus cow",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/pig2.jpg")
     },
     {
       name: "Daphne",
@@ -94,7 +94,7 @@ module.exports = {
       sex: "heifer",
       color: "brown",
       bio: "Daphne is a 15 month old brown, zebu heifer ",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/daphne.jpg")
     },
     {
       name: "Roz",
@@ -110,7 +110,7 @@ module.exports = {
       sex: "heifer",
       color: "gray brindle",
       bio: "Roz is a 15 month old gray brindle, zebu heifer",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/roz.jpg")
     },
     {
       name: "Elsa",
@@ -127,7 +127,7 @@ module.exports = {
       color: "red",
       bio:
         "Elsa is a 1 year old red Highland heifer, out of Holly's Highlands' Mocha Latte(D) and Snowman(S)",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/elsa.jpg")
     },
     {
       name: "Bo Peep",
@@ -144,7 +144,7 @@ module.exports = {
       color: "white",
       bio:
         "Bo Peep is a 10 month old white Park, lowline Angus cross heifer out of RCM Pearl and a lowline angus bull",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/bopeep.jpg")
     },
     {
       name: " Poppy",
@@ -161,7 +161,7 @@ module.exports = {
       color: "black",
       bio:
         "Poppy is a 10 month old black belted Galloway heifer out of Croakers Crossing's Petra and Hank.  She is a full sibling of Ivy",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/poppy.jpg")
     },
     {
       name: "RJ Maggie Lil Doll",
@@ -179,7 +179,7 @@ module.exports = {
       polled: "naturally",
       bio:
         "Maggie is a 7mo old fawn A2/A2 Jersey heifer out of RJ Molly Moo and MPRR Firecracker",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/maggie.jpg")
     },
     {
       name: "Ivy",
@@ -197,7 +197,7 @@ module.exports = {
       polled: "homozygous",
       bio:
         "Ivy is a 2 day old black Belted Galloway heifer out of Croakers Crossing's Petra and Hank.  She is a full sibling of Poppy",
-      image: "../../Images/ferdinand.jpg"
+      image: require("./Images/ivy.jpg")
     }
   ]
 };
