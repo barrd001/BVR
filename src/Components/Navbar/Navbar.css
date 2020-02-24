@@ -12,6 +12,8 @@
   width: 100vw;
   margin-bottom: 5vh;
   z-index: 100;
+  position: sticky;
+  top: 0;
 }
 
 .sticky {

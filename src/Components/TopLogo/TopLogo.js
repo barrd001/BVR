@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./TopLogo.css";
 
 const TopLogo = () => {
-  
   return (
     <>
       <div className='topLogo'>
