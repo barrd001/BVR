@@ -1,11 +1,11 @@
 import React from "react";
-import Parallax3 from "./Parallax3";
+
 import "./Main.css";
 
 const Soul = () => {
   return (
     <>
-      <Parallax3 />
+      
       <div className='soul'>
         <h3>Experience Heals the Soul</h3>
         <p>
@@ -20,7 +20,7 @@ const Soul = () => {
           aliquam quo totam. Labore!
         </p>
       </div>
-      <Parallax3 />
+      
     </>
   );
 };

@@ -15,14 +15,9 @@
   grid-column: 1 / span 5;
   grid-row: 1 / 27;
   width: 100vw;
-  /* height: 100vh; */
+  margin-top: 10vh;
   justify-self: center;
   align-self: center;
-}
-
-nav {
-  color: white;
-  height: 11vh;
 }
 
 .vande {
@@ -48,11 +43,6 @@ nav {
   height: 89vh;
 }
 
-.parallax1 {
-  grid-column: 1 / span 5;
-  grid-row: 1 / 12;
-}
-
 .soil {
   grid-column: 2 / span 3;
   grid-row: 12 / 15;
@@ -61,10 +51,6 @@ nav {
   background-color: white;
   margin-bottom: 60vh;
   border-radius: 10px;
-}
-.parallax2 {
-  grid-column: 1 / span 5;
-  grid-row: 15 / 18;
 }
 
 .body {
@@ -75,10 +61,6 @@ nav {
   background: white;
   margin-bottom: 60vh;
   border-radius: 10px;
-}
-.parallax3 {
-  grid-column: 1 / span 5;
-  grid-row: 21 / 24;
 }
 
 .soul {
@@ -102,5 +84,5 @@ footer {
 }
 
 .duck {
-  z-index: 4;
+  z-index: 2;
 }

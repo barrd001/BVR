@@ -10,12 +10,31 @@
   align-items: center;
   background: #c9a87b;
   width: 100vw;
+  margin-bottom: 5vh;
+  z-index: 100;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.notSticky {
+  position: absolute;
+  top: 15vh;
+  z-index: 100;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+nav {
+  color: white;
+  height: 11vh;
 }
 
 .navLinks {

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Data from "../../Data";
 import "./Card.css";
 import moment from "moment";
-import image from "../../Images/ferdinand.jpg";
 
 class Card extends Component {
   state = Data;
@@ -33,7 +32,7 @@ class Card extends Component {
                   <li>Sire: {livestock.sire} </li>
                   <li>Sex: {livestock.sex} </li>
                   <li>Color: {livestock.color} </li>
-                  <li>Bio: {livestock.bio} </li>
+                  <li>{livestock.bio} </li>
                 </ul>
               </div>
             </div>

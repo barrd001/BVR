@@ -11,7 +11,7 @@
   justify-self: center;
   align-self: center;
   padding-bottom: 20vh;
-  padding-left: 5vh;
+  /* padding-left: 5vh; */
 }
 
 .card {
@@ -88,4 +88,9 @@
 
 .info {
   padding-top: 1vh;
+  font-weight: 800;
+}
+
+.info li {
+  padding: 1px;
 }
